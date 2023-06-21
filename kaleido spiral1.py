@@ -8,7 +8,7 @@ def draw_circle(size,angle,shift):
     turtle.circle(size)
     turtle.right(angle)
     turtle.forward(shift)
-    draw_circle(size+5, angle-20, shift-10)
+    draw_circle(size+10, angle+10, shift+1)
 
 turtle.bgcolor('black')
 turtle.speed('fast')
